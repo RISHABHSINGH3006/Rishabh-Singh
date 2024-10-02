@@ -263,3 +263,135 @@ footer {
     list-style: none;
     padding-left: 20px;
 }
+
+
+
+/* ========================== Responsive Design Section ========================== */
+/* Mobile and Tablet (up to 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 100px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .skills-list, .education-list, .certification, .project, .project-skill {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .skill {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .project img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .resume-link {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 15px 0;
+        font-size: 0.9rem;
+    }
+}
+
+/* Small Devices (up to 480px) */
+@media (max-width: 480px) {
+    header {
+        padding: 15px 5px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .profile-img {
+        width: 80px;
+    }
+
+    .skills-list, .education-list, .certification, .project, .project-skill {
+        padding: 8px;
+        text-align: center;
+    }
+
+    .skill {
+        padding: 6px;
+        font-size: 0.8rem;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+
+    .resume-link {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+        margin: 10px auto;
+    }
+
+    .nav-links {
+        top: 60px;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
