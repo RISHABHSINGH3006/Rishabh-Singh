@@ -24,6 +24,7 @@ header {
     padding: 0;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .nav-links li {
@@ -414,3 +415,4 @@ footer {
 .bar {
     transition: all 0.3s ease;
 }
+
