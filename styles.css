@@ -488,10 +488,10 @@ nav {
 
 /* ======== MOBILE RESPONSIVE MENU ======== */
 @media (max-width: 768px) {
-    /* nav {
+    nav {
         justify-content: space-between;
         padding: 0 20px;
-    } */
+    }
 
     .nav-links {
         flex-direction: column;
@@ -512,14 +512,15 @@ nav {
         height: 260px; /* adjust based on number of links */
     }
 
-    .nav-links li {
+    /* .nav-links li {
         margin: 15px 0;
-    }
+    } */
 
     .menu-toggle {
         display: flex;
     }
 }
+
 
 
 
