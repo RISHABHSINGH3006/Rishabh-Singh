@@ -19,7 +19,7 @@ header {
     position: relative;
 }
 
-.nav-links {
+/* .nav-links {
     list-style: none;
     padding: 0;
     display: flex;
@@ -39,7 +39,7 @@ header {
 
 .nav-links a:hover {
     color: #00ffec;
-}
+} */
 
 .menu-toggle {
     display: none;
@@ -399,7 +399,7 @@ footer {
 /* --------------------------------------------------------------------------------- */
 
 /* Hamburger toggle animation */
-.menu-toggle.active .bar:nth-child(1) {
+/* .menu-toggle.active .bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 6px);
 }
 
@@ -413,7 +413,7 @@ footer {
 
 .bar {
     transition: all 0.3s ease;
-}
+} */
 
 /*------------------------------------------------------------------------------------------------------------  */
 
@@ -520,3 +520,4 @@ nav {
         display: flex;
     }
 }
+
